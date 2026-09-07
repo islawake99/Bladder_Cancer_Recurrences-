@@ -45,15 +45,14 @@ Relative risks and odds ratios were calculated to compare the risk of recurrence
 #### Survival Analysis
 
 Survival analysis was conducted to account for the time until recurrence and differences in patient follow-up.
-
 Kaplan–Meier analysis was used to investigate the time patients remained recurrence-free according to treatment group. The resulting survival probabilities were visualised using Kaplan–Meier survival curves.
 
 A Cox proportional hazards model was then fitted to investigate whether treatment group was associated with the hazard of recurrence. The estimated hazard ratios, confidence intervals and significance levels were examined to assess the relationship between treatment and recurrence hazard. The proportional hazards assumption was also assessed to determine the suitability of the model.
 
 Finally, a competing-risks analysis was conducted to account for events that could prevent the observation of a recurrence, particularly death. This analysis extended the previous survival analyses by considering recurrence and death as competing events and was used to assess the probability of experiencing a recurrence in the presence of competing events.
 
-
 ## Results
+### Recurrence Probability and 
 ### Relative Risk
 ### Odds Ratio
 ### Kaplan-Meier Analysis
