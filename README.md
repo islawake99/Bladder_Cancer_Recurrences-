@@ -52,7 +52,9 @@ A Cox proportional hazards model was then fitted to investigate whether treatmen
 Finally, a competing-risks analysis was conducted to account for events that could prevent the observation of a recurrence, particularly death. This analysis extended the previous survival analyses by considering recurrence and death as competing events and was used to assess the probability of experiencing a recurrence in the presence of competing events.
 
 ## Results
-### Recurrence Probability and 
+### Recurrence Probability and Recurrence Rate
+The comparison between recurrence probability and recurrence rate according to treatment type is displayed in the table below. The table immediately reveals that the recurrence probability for the placebo is the highest at 60.4% in comparison with Pyridoxine at 46.9% and Thiotepa at 47.4%. We also see that although Pyridoxine has the lowest recurrence probability out of the three, there is very little difference between Thiotepa. This suggests that patients recieving Pyridoxine and Thiotepa had very similar chances of experiencing a recurrence. In contrast the recurrence rate of Thiotepa is the lowest ot of the tree at 0.038.
+
 ### Relative Risk
 ### Odds Ratio
 ### Kaplan-Meier Analysis
