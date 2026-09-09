@@ -53,10 +53,10 @@ Finally, a competing-risks analysis was conducted to account for events that cou
 
 ## Results
 ### Recurrence Probability and Recurrence Rate
-The comparison between recurrence probability and recurrence rate according to treatment type is displayed in the table below. The table immediately reveals that the recurrence probability for the placebo is the highest at 60.4% in comparison with Pyridoxine at 46.9% and Thiotepa at 47.4%. We also see that although Pyridoxine has the lowest recurrence probability out of the three, there is very little difference between Thiotepa. This suggests that patients recieving Pyridoxine and Thiotepa had very similar chances of experiencing a recurrence. In contrast the recurrence rate of Thiotepa is the lowest ot of the tree at 0.038.
+The comparison between recurrence probability and recurrence rate according to treatment type is displayed in the table below. The table immediately reveals that the recurrence probability for the placebo is the highest at 60.4% in comparison with Pyridoxine at 46.9% and Thiotepa at 47.4%. We also see that although Pyridoxine has the lowest recurrence probability out of the three, there is very little difference between Thiotepa. This suggests that patients recieving Pyridoxine and Thiotepa had very similar chances of experiencing a recurrence. In contrast the recurrence rate of Thiotepa is the lowest out of the tree at 0.038. This suggests that when the amount of follow up time is taken into account, recurrence occur at a lower rate for patients recieving Thiotepa. We also note that the recurence rate for Pyridoxine is the highest out of the three, including the Placebo, reealing how recurrence probability and recurrence rate are not interchangeable.
 
-### Relative Risk
-### Odds Ratio
+### Relative Risk and Odds Ratio
+
 ### Kaplan-Meier Analysis
 ### Cox proportional hazard model
 ### Competing risk survival analysis
