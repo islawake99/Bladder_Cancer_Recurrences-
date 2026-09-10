@@ -64,7 +64,7 @@ $$
 \text{odds} = \frac{{p}}{1-p}
 $$
 
-Where p is the recurrence probability
+Where p is the recurrence probability.
 #### Survival Analysis
 
 Survival analysis was conducted to account for the time until recurrence and differences in patient follow-up.
@@ -78,7 +78,13 @@ Finally, a competing-risks analysis was conducted to account for events that cou
 ### Recurrence Probability and Recurrence Rate
 The comparison between recurrence probability and recurrence rate according to treatment type is displayed in the table below. The table immediately reveals that the recurrence probability for the placebo is the highest at 60.4% in comparison with Pyridoxine at 46.9% and Thiotepa at 47.4%. We also see that although Pyridoxine has the lowest recurrence probability out of the three, there is very little difference between Thiotepa. This suggests that patients recieving Pyridoxine and Thiotepa had very similar chances of experiencing a recurrence. In contrast the recurrence rate of Thiotepa is the lowest out of the tree at 0.038. This suggests that when the amount of follow up time is taken into account, recurrence occur at a lower rate for patients recieving Thiotepa. We also note that the recurence rate for Pyridoxine is the highest out of the three, including the Placebo, reealing how recurrence probability and recurrence rate are not interchangeable.
 
-### Relative Risk and Odds Ratio
+### Relative Risk
+The table below compares the relative risk and odds ratio according to patient treatment type.
+21.6% reduced recurrence rate for Thiotepa in comparison with a placebo, 22.4% reduced recurrence rate for pyridoxine in comparison with a placebo, and 1.052% increased rate or recurrence for Thiotepa in comparison with pyridoxine to 3sf.
+It is interestiing to compare the first two relative risks with one another. Both treatments reduce the recurrence rate in comparison with the placebo, but pyridoxine has a slightly higher percentage of reduced recurrence rate, suggesting higher effectiveness than thiotepa.
+
+### Odds Ratio
+Which gives approximately, 0.59, 0.58, 1.02 respectively. It is intuitive to calculate the first two percentages: 41%, 42%. We can see that in comparison with the placebo, the odds of recurrence for thiotepa is approximately 41% lower. Similarly we can conclude that for pyridoxine that odds of recurrence in comparison with a placebo is approxiately 42% lower. The final OR is easier to analyse through inspection: The ratio between the two odd for thiotepa and pyridoxine is 1.02. This suggest very little difference in the recurrence odds for the two treatments. We conclude that while both pyridoxine and thiotepa reduce recurrence odds, pyridoxine appears to be slightly more effective.
 
 ### Kaplan-Meier Analysis
 ### Cox proportional hazard model
