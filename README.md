@@ -87,7 +87,13 @@ It is interestiing to compare the first two relative risks with one another. Bot
 Which gives approximately, 0.59, 0.58, 1.02 respectively. It is intuitive to calculate the first two percentages: 41%, 42%. We can see that in comparison with the placebo, the odds of recurrence for thiotepa is approximately 41% lower. Similarly we can conclude that for pyridoxine that odds of recurrence in comparison with a placebo is approxiately 42% lower. The final OR is easier to analyse through inspection: The ratio between the two odd for thiotepa and pyridoxine is 1.02. This suggest very little difference in the recurrence odds for the two treatments. We conclude that while both pyridoxine and thiotepa reduce recurrence odds, pyridoxine appears to be slightly more effective.
 
 ### Kaplan-Meier Analysis
+The curve shows that out of all treatments, the placebo has the lowest probability of remaining recurrence free over time. Thiotepa has the highest probability of remaining recurrence free out of the three. It is also noted how all three treatments appear to have similar probabilities of remaining recurrence free for the first initial months. Note that this model treats data as sensored if status =/ 1. This introduces competing risk.
+
 ### Cox proportional hazard model
+Checking the proportional hazards assumption. I.e. HRs between two treatments must remain constant over time. Since p > 0.05 there is no evidence that the proportional hazard assumptions have been violated consider strengthening this model by adding more variables like tumor or patient charecteristics the surviavl dataset needs to be modified for this. Also analysis for the summary needs to be done
+
 ### Competing risk survival analysis
+
 ## Discussion
+
 ## Conclusion
