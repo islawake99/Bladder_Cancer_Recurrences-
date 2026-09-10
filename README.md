@@ -57,6 +57,14 @@ $$
 \frac{\text{odds(Recurrence | Treatment A)}}
 {\text{odds(Recurrence | Treatment B)}}
 $$
+
+given odds are calculated as 
+
+$$
+\text{odds} = \frac{{p}}{1-p}
+$$
+
+Where p is the recurrence probability
 #### Survival Analysis
 
 Survival analysis was conducted to account for the time until recurrence and differences in patient follow-up.
