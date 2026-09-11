@@ -7,19 +7,15 @@ Up until the early 1970s, Theotepa was considered an established clinical approa
 
 ## Method
 ### Data
-The data used in this project are from the Bladder1 in the survival package in R. It consists of 118 patients with bladder cancer including information of treatment group and information relating to tumor reccurence and follow up time. Patients recieved one of three treatments: Placebo, Pyridoxine, and Thiotepa. 
+The data used in this project are from the Bladder1 in the survival package in R. It consists of 118 patients with bladder cancer including information of treatment group and information relating to tumor reccurence and follow up time. Patients recieved one of three treatments: Placebo, Pyridoxine, and Thiotepa. The dataset includes information on number of initial tumors, number of recurrences, follow up times and status after an observed interval. The data was used to investigate and compare risk of bladder cancer recurrence between the three treatment groups using several statistical methods.
 
-The dataset includes information on number of initial tumors, number of recurrences, follow up times and status after an observed interval. The data was used to investigate and compare risk of bladder cancer recurrence between the three treatment groups using several statistical methods.
-
-For the purpose of this study, the data were often made to account for unique patienst because there can be more than one observqation per patient
+For the purpose of this analysis, the data were often modified to account for unique patients who experienced one or more recurrences due to the dataset often containing more than one observation per patient. 
 (some sort of license reference to be added later)
 
 ### Statistical Analysis
-
-The risk of bladder cancer recurrence was investigated using a series of statistical methods.
+The follwong statistical methods were used to investigate the risk of bladder cancer recurrence.
 
 #### Recurrence Probability and Recurrence Rate
-
 Recurrence probability and recurrence rate were calculated separately for each treatment group. Recurrence probability represents the proportion of patients who experienced at least one recurrence during the study period and was calculated as:
 
 $$
@@ -39,7 +35,6 @@ $$
 The calculated recurrence probabilities and rates for each treatment group were presented in a table.
 
 #### Relative Risk and Odds Ratio
-
 Relative risks and odds ratios were calculated to compare the risk of recurrence between treatment groups. Comparisons were made between Pyridoxine and Placebo, Thiotepa and Placebo, and Pyridoxine and Thiotepa. The results were presented in a table and interpreted to assess the relative risk and odds of recurrence between treatments.
 
 Relative Risk
