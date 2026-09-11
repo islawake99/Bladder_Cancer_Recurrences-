@@ -87,7 +87,7 @@ The Kaplan-Meier analysis indicates that for all three treatments, the probabili
 The table below displays the last observed time interval where there was a recurrence for each treatment type, theyre respective survival probabilities and confidence intervals. This confirms the uncertainty in the estimates from our model, and it seems increases the importance of a cox test.
 
 ### Cox proportional hazard model
-Checking the proportional hazards assumption. I.e. HRs between two treatments must remain constant over time. Since p > 0.05 there is no evidence that the proportional hazard assumptions have been violated consider strengthening this model by adding more variables like tumor or patient charecteristics the surviavl dataset needs to be modified for this. Also analysis for the summary needs to be done
+The Cox proportional hazards model estimated a lower hazard of recurrence for both pyridoxine (HR = 0.702, 95% CI: 0.375–1.316) and thiotepa (HR = 0.682, 95% CI: 0.377–1.234) compared with placebo. However, neither association was statistically significant, as the confidence intervals included 1 and the p-values were greater than 0.05. The overall tests of treatment effect also provided insufficient evidence of differences in recurrence hazard between treatment groups (p = 0.40). The proportional hazards assumption was not found to be violated (global p = 0.49). The concordance of 0.533 indicates limited discrimination of the model based on treatment alone.
 
 ## Discussion
 Competing risk survival analysis
