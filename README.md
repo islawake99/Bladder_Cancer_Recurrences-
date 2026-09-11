@@ -83,13 +83,12 @@ The table below compares the relative risk and odds ratio according to patient t
 Looking at the odds ratios, we can see that in comparison with the Placebo the odds of recurrence for Thiotepa is approximately 41% lower. Similarly, the odds of recurrence for Pyridoxine in comparison with the placebo is approximately 42% lower. The final odds ratio is easier to analyse through inspection: The ratio between the two odds for thiotepa and pyridoxine is 1.02. This suggest very little difference in the recurrence odds for the two treatments. We conclude that while both pyridoxine and Thiotepa substantially reduce recurrence odds, pyridoxine appears to be slightly more effective.
 
 ### Kaplan-Meier Analysis
-The curve shows that out of all treatments, the placebo has the lowest probability of remaining recurrence free over time. Thiotepa has the highest probability of remaining recurrence free out of the three. It is also noted how all three treatments appear to have similar probabilities of remaining recurrence free for the first initial months. Note that this model treats data as sensored if status =/ 1. This introduces competing risk.
+The Kaplan-Meier analysis indicates that for all three treatments, the probability of remaining recurrence free declines over time. The survival curve below reveals that all treatments appear to have similar probabilities of remaining recurrence free for the first initial months, and out of the three treatments, the Placebo shows a fairly rapid decline in recurrence free survival. Pyridoxine and Thiotepa showed broadly similar chances of recurrence free survival, although estimates become increasingly uncertain at later follow up times due to the small number of patients remaining at risk. 
+The table below displays the last observed time interval where there was a recurrence for each treatment type, theyre respective survival probabilities and confidence intervals. This confirms the uncertainty in the estimates from our model, and it seems increases the importance of a cox test.
 
 ### Cox proportional hazard model
 Checking the proportional hazards assumption. I.e. HRs between two treatments must remain constant over time. Since p > 0.05 there is no evidence that the proportional hazard assumptions have been violated consider strengthening this model by adding more variables like tumor or patient charecteristics the surviavl dataset needs to be modified for this. Also analysis for the summary needs to be done
 
-### Competing risk survival analysis
-
 ## Discussion
-
+Competing risk survival analysis
 ## Conclusion
